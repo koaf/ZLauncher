@@ -4755,14 +4755,14 @@ form[name='submitSecretQuestion'] p {
     animation: rotatingBack 25s linear infinite;
 }
 /* Notion */
-#notionContainer {
+#serverlist_ {
     margin-top: 120px;
     width: 100%;
     height: calc(100% - 120px);
     overflow: hidden;
 }
 
-#notion {
+#serverlist {
     width: calc(100% / 0.65);
     height: calc(100% / 0.65);
     border: 0;

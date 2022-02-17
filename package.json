@@ -1,13 +1,13 @@
 {
   "name": "zlauncher",
-  "version": "2.0.5",
+  "version": "0.1.0",
   "productName": "ZLauncher",
   "description": "ZShareのために作られたランチャー",
   "author": "Daniel Scalzi (https://github.com/dscalzi/), Kamesuta (https://github.com/Kamesuta/),koaf (https://github.com/koaf/)",
   "license": "UNLICENSED",
-  "homepage": "https://github.com/TeamKun/NumaLauncher",
+  "homepage": "https://github.com/koaf/ZLauncher",
   "bugs": {
-    "url": "https://github.com/TeamKun/NumaLauncher/issues"
+    "url": "https://github.com/koaf/ZLauncher/issues"
   },
   "private": true,
   "main": "index.js",
@@ -52,6 +52,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/TeamKun/NumaLauncher.git"
+    "url": "git+https://github.com/koaf/ZLauncher.git"
   }
 }
