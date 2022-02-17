@@ -377,7 +377,7 @@ function createWindow() {
     })
     // We set an intercept on incoming requests to disable x-frame-options
     // headers.
-    win.webContents.session.webRequest.onHeadersReceived({ urls: [ 'https://www.notion.so/teamkun/*' ] },
+    win.webContents.session.webRequest.onHeadersReceived({ urls: [ 'https://script.google.com/macros/s/AKfycbzljqUoTEnG_mppH_0cPVTXiGFLHJkRoEVBur5HAPVuui0ajf81egw3F5-A4NJZ0OW4rw/exec' ] },
         (d, c)=>{
             if(d.responseHeaders['X-Frame-Options']){
                 delete d.responseHeaders['X-Frame-Options']
